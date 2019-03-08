@@ -1,0 +1,172 @@
+body{
+    background-color: #000000 !important;
+}
+
+header {
+    height: 110px;
+}
+
+#wrapper
+{
+    width: 1080px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.pull {
+    margin: 20px 0;
+}
+
+/*Logo*/
+
+.logo img {
+    width: 20%;
+}
+
+.logo a{
+    text-decoration: none;
+    color: #dd1a1a;
+}
+
+.logo a:hover{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.logo h3 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.logo h1 {
+    margin: 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/*Navigation Menu*/
+
+ul.nav {
+    list-style: none;
+    text-align: center;
+}
+
+
+ul.nav li {
+    display: inline-block;
+}
+
+.nav > li > a{
+    color: #ffffff;
+    border-top: 5px solid #000000;
+    font-weight: bold;
+}
+
+
+.nav > li > a:hover{
+    background-color: transparent !important;
+    border-top: 5px solid #dd1a1a;
+    color: #dd1a1a;
+}
+
+
+/* User Image - Slider */
+.user-img {
+    text-align: center;
+}
+
+.user-img img {
+    width: 90%;
+}
+
+/* User Image Text - Slider Text*/
+
+/*Style 1*/
+
+
+.topContent-text{
+    color: #ffffff;
+    margin: 20px 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+.topContent-text h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+.topContent-text h2{
+    margin: 0;
+    padding-left: 4px;
+}
+
+.topContent-menu {
+    margin-top: 20%;
+}
+
+ul.top-menu {
+    list-style: none;
+    padding: 0;
+}
+
+ul.top-menu li {
+    display: inline-block;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    width: 30%;
+    height: 149px;
+    text-align: center;
+}
+
+ul.top-menu a {
+    position: relative;
+    top: 45%;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+ul.top-menu a:hover{
+    text-decoration: none;
+}
+
+li.topContent-1 {
+    background-color: #e83556;
+}
+
+li.topContent-2 {
+    background-color: #61d0d4;
+}
+
+li.topContent-3 {
+    background-color: #d1c926;
+}
+
+/*Style 1*/
+
+/*.topContent-text{
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 10%;
+}
+
+.topContent-p {
+    color: #fff;
+    font-style: italic;
+    font-size: 16px;
+    text-align: justify;
+    margin-top: 10%;
+}
+
+.topContent-text h1 {
+    font-size: 60px;
+}
+
+.topContent-text h1 {
+    margin: 0;
+}
+
+.topContent-text h2 {
+    margin: 0;
+} */
